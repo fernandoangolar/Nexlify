@@ -1,11 +1,7 @@
-import express from "express"
+import app from "./app";
 
-const app = express()
+const PORT = process.env.PORT || 3000;
 
-app.get("/health", (req, res) => {
-    res.status(200).json({ status: "ok" })
-})
-
-app.listen(3000, () => {
-    console.log("Server is running no port localhost:3000")
+app.listen(PORT, () => {
+    `Servidor rodando na porta ${PORT}`
 })

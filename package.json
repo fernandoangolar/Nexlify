@@ -8,9 +8,12 @@
   },
   "dependencies": {
     "@prisma/client": "^6.7.0",
-    "express": "^5.1.0"
+    "bcrypt": "^5.1.1",
+    "express": "^5.1.0",
+    "zod": "^3.24.4"
   },
   "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
     "@types/express": "^5.0.1",
     "@types/node": "^22.15.16",
     "@typescript-eslint/eslint-plugin": "^8.32.0",
