@@ -305,7 +305,7 @@
 
 "@prisma/client@^6.7.0":
   version "6.7.0"
-  resolved "https://registry.npmjs.org/@prisma/client/-/client-6.7.0.tgz"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-6.7.0.tgz#69f913b0a8cfb6aa5de5dca6aa57bfd4e91e7e95"
   integrity sha512-+k61zZn1XHjbZul8q6TdQLpuI/cvyfil87zqK2zpreNIXyXtpUv3+H/oM69hcsFcZXaokHJIzPAt5Z8C8eK2QA==
 
 "@prisma/config@6.7.0":
@@ -411,7 +411,7 @@
 
 "@types/express@^5.0.1":
   version "5.0.1"
-  resolved "https://registry.npmjs.org/@types/express/-/express-5.0.1.tgz"
+  resolved "https://registry.yarnpkg.com/@types/express/-/express-5.0.1.tgz#138d741c6e5db8cc273bec5285cd6e9d0779fc9f"
   integrity sha512-UZUw8vjpWFXuDnjFTh7/5c2TWDlQqeXHi6hcN7F2XSVT5P+WmUnnbFS3KA6Jnc6IsEqI2qCVu2bK0R0J4A8ZQQ==
   dependencies:
     "@types/body-parser" "*"
@@ -433,10 +433,17 @@
   resolved "https://registry.npmjs.org/@types/mime/-/mime-1.3.5.tgz"
   integrity sha512-/pyBZWSLD2n0dcHE3hq8s8ZvcETHtEuF+3E7XVt0Ig2nvsVQXdghHVcEkIWjy9A0wKfTn97a/PSDYohKIlnP/w==
 
-"@types/node@*", "@types/node@^22.15.16":
+"@types/node@*":
   version "22.15.16"
   resolved "https://registry.npmjs.org/@types/node/-/node-22.15.16.tgz"
   integrity sha512-3pr+KjwpVujqWqOKT8mNR+rd09FqhBLwg+5L/4t0cNYBzm/yEiYGCxWttjaPBsLtAo+WFNoXzGJfolM1JuRXoA==
+  dependencies:
+    undici-types "~6.21.0"
+
+"@types/node@^22.15.17":
+  version "22.15.17"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.15.17.tgz#355ccec95f705b664e4332bb64a7f07db30b7055"
+  integrity sha512-wIX2aSZL5FE+MR0JlvF87BNVrtFWf6AE6rxSE9X7OwnVvoyCQjpzSRJ+M87se/4QCkCiebQAqrJ0y6fwIyi7nw==
   dependencies:
     undici-types "~6.21.0"
 
@@ -479,7 +486,7 @@
 
 "@typescript-eslint/eslint-plugin@^8.32.0":
   version "8.32.0"
-  resolved "https://registry.npmjs.org/@typescript-eslint/eslint-plugin/-/eslint-plugin-8.32.0.tgz"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-8.32.0.tgz#86630dd3084f9d6c4239bbcd6a7ee1a7ee844f7f"
   integrity sha512-/jU9ettcntkBFmWUzzGgsClEi2ZFiikMX5eEQsmxIAWMOn4H3D4rvHssstmAHGVvrYnaMqdWWWg0b5M6IN/MTQ==
   dependencies:
     "@eslint-community/regexpp" "^4.10.0"
@@ -494,7 +501,7 @@
 
 "@typescript-eslint/parser@^8.32.0":
   version "8.32.0"
-  resolved "https://registry.npmjs.org/@typescript-eslint/parser/-/parser-8.32.0.tgz"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-8.32.0.tgz#fe840ecb2726a82fa9f5562837ec40503ae71caf"
   integrity sha512-B2MdzyWxCE2+SqiZHAjPphft+/2x2FlO9YBx7eKE1BCb+rqBlQdhtAEhzIEdozHd55DXPmxBdpMygFJjfjjA9A==
   dependencies:
     "@typescript-eslint/scope-manager" "8.32.0"
@@ -961,14 +968,14 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-eslint-config-prettier@^10.1.3:
-  version "10.1.3"
-  resolved "https://registry.npmjs.org/eslint-config-prettier/-/eslint-config-prettier-10.1.3.tgz"
-  integrity sha512-vDo4d9yQE+cS2tdIT4J02H/16veRvkHgiLDRpej+WL67oCfbOb97itZXn8wMPJ/GsiEBVjrjs//AVNw2Cp1EcA==
+eslint-config-prettier@^10.1.5:
+  version "10.1.5"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-10.1.5.tgz#00c18d7225043b6fbce6a665697377998d453782"
+  integrity sha512-zc1UmCpNltmVY34vuLRV61r1K27sWuX39E+uyUnY8xS2Bex88VV9cugG+UZbRSRGtGyFboj+D8JODyme1plMpw==
 
 eslint-plugin-prettier@^5.4.0:
   version "5.4.0"
-  resolved "https://registry.npmjs.org/eslint-plugin-prettier/-/eslint-plugin-prettier-5.4.0.tgz"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.4.0.tgz#54d4748904e58eaf1ffe26c4bffa4986ca7f952b"
   integrity sha512-BvQOvUhkVQM1i63iMETK9Hjud9QhqBnbtT1Zc642p9ynzBuCe5pybkOnvqZIBypXmMlsGcnU4HZ8sCTPfpAexA==
   dependencies:
     prettier-linter-helpers "^1.0.0"
@@ -994,7 +1001,7 @@ eslint-visitor-keys@^4.2.0:
 
 eslint@^9.26.0:
   version "9.26.0"
-  resolved "https://registry.npmjs.org/eslint/-/eslint-9.26.0.tgz"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-9.26.0.tgz#978fe029adc2aceed28ab437bca876e83461c3b4"
   integrity sha512-Hx0MOjPh6uK9oq9nVsATZKE/Wlbai7KFjfCuw9UHaguDW3x+HF0O5nIi3ud39TWgrTjTO5nHxmL3R1eANinWHQ==
   dependencies:
     "@eslint-community/eslint-utils" "^4.2.0"
@@ -1092,7 +1099,7 @@ express-rate-limit@^7.5.0:
 
 express@^5.0.1, express@^5.1.0:
   version "5.1.0"
-  resolved "https://registry.npmjs.org/express/-/express-5.1.0.tgz"
+  resolved "https://registry.yarnpkg.com/express/-/express-5.1.0.tgz#d31beaf715a0016f0d53f47d3b4d7acf28c75cc9"
   integrity sha512-DT9ck5YIRU+8GYzzU5kT3eHGA5iL+1Zd0EutOmTE9Dtk+Tvuzd23VBU+ec7HPNSTxXYO55gPV/hq4pSBJDjFpA==
   dependencies:
     accepts "^2.0.0"
@@ -1755,12 +1762,12 @@ prettier-linter-helpers@^1.0.0:
 
 prettier@^3.5.3:
   version "3.5.3"
-  resolved "https://registry.npmjs.org/prettier/-/prettier-3.5.3.tgz"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.5.3.tgz#4fc2ce0d657e7a02e602549f053b239cb7dfe1b5"
   integrity sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==
 
 prisma@^6.7.0:
   version "6.7.0"
-  resolved "https://registry.npmjs.org/prisma/-/prisma-6.7.0.tgz"
+  resolved "https://registry.yarnpkg.com/prisma/-/prisma-6.7.0.tgz#7890e352bde11f6ec3018802d3fc1bcbe0027bd2"
   integrity sha512-vArg+4UqnQ13CVhc2WUosemwh6hr6cr6FY2uzDvCIFwH8pu8BXVv38PktoMLVjtX7sbYThxbnZF5YiR8sN2clw==
   dependencies:
     "@prisma/config" "6.7.0"
@@ -2106,7 +2113,7 @@ ts-api-utils@^2.1.0:
 
 ts-node-dev@^2.0.0:
   version "2.0.0"
-  resolved "https://registry.npmjs.org/ts-node-dev/-/ts-node-dev-2.0.0.tgz"
+  resolved "https://registry.yarnpkg.com/ts-node-dev/-/ts-node-dev-2.0.0.tgz#bdd53e17ab3b5d822ef519928dc6b4a7e0f13065"
   integrity sha512-ywMrhCfH6M75yftYvrvNarLEY+SUXtUvU8/0Z6llrHQVBx12GiFk5sStF8UdfE/yfzk9IAq7O5EEbTQsxlBI8w==
   dependencies:
     chokidar "^3.5.1"
@@ -2172,7 +2179,7 @@ type-is@^2.0.0, type-is@^2.0.1:
 
 typescript@^5.8.3:
   version "5.8.3"
-  resolved "https://registry.npmjs.org/typescript/-/typescript-5.8.3.tgz"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.8.3.tgz#92f8a3e5e3cf497356f4178c34cd65a7f5e8440e"
   integrity sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==
 
 undici-types@~6.21.0:

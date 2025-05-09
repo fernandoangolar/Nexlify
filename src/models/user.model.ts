@@ -1,22 +1,15 @@
 
-export interface UserDTO {
-    id: number;
-    name: string;
-    email: string;
-    role: UserRoleDTO[];
-    createdAt: Date;
-    updatedAt: Date;
+export enum Role {
+    RESTAURANT_ADMIN = 'RESTAURANT_ADMIN',
+    RESTAURANT_EMPLOYEE = 'RESTAURANT_EMPLOYEE',
+    CLIENT = 'CLIENT',
 }
 
-export interface UserRoleDTO {
+export interface User {
     id: number;
-    name: string;
-    userId: number;
-}
-
-export interface UserCreateDTO {
-    name: string;
     email: string;
     password: string;
-    roles: string[];
+    role: Role;
+    createdAt: Date;
+    updatedAt: Date;
 }

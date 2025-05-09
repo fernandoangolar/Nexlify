@@ -122,17 +122,11 @@ exports.Prisma.TransactionIsolationLevel = makeStrictEnum({
 
 exports.Prisma.UserScalarFieldEnum = {
   id: 'id',
-  name: 'name',
   email: 'email',
   password: 'password',
+  role: 'role',
   createdAt: 'createdAt',
   updatedAt: 'updatedAt'
-};
-
-exports.Prisma.UserRoleScalarFieldEnum = {
-  id: 'id',
-  role: 'role',
-  userId: 'userId'
 };
 
 exports.Prisma.SortOrder = {
@@ -144,16 +138,14 @@ exports.Prisma.QueryMode = {
   default: 'default',
   insensitive: 'insensitive'
 };
-
-exports.Prisma.NullsOrder = {
-  first: 'first',
-  last: 'last'
+exports.Role = exports.$Enums.Role = {
+  RESTAURANT_ADMIN: 'RESTAURANT_ADMIN',
+  RESTAURANT_EMPLOYEE: 'RESTAURANT_EMPLOYEE',
+  CLIENT: 'CLIENT'
 };
 
-
 exports.Prisma.ModelName = {
-  User: 'User',
-  UserRole: 'UserRole'
+  User: 'User'
 };
 
 /**

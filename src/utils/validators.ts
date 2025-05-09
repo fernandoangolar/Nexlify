@@ -1,14 +1,12 @@
 
 
 import { z } from 'zod';
+import { Role } from '../models/user.model';
 
 export const registerSchema = z.object({
-
-    name: z.string().optional(),
-    email: z.string().email('Email inválido'),
-    password: z.string().min(6, 'A senha deve ter pelo menos 6 caracteres'),
-    roles: z.array(z.string()).nonempty('Selecione pelo menos um papel'),
-
-})
-
-export type RegisterSchema = z.infer<typeof registerSchema>;
+    email: z.string().email({ message: 'E-mail inválido' }),
+    password: z.string().min(8, { message: 'Senha deve ter pelo menos 8 caracteres' }),
+    role: z.enum([Role.RESTAURANT_ADMIN, Role.RESTAURANT_EMPLOYEE, Role.CLIENT], {
+      message: 'Papel inválido',
+    }),
+});
